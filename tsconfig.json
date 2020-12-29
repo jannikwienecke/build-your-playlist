@@ -19,7 +19,7 @@
     "target": "esnext"
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "pages/me/index.test.js"],
+  "include": ["**/*.ts", "**/*.tsx", "me/index.test.js"],
   "files": [
     "twin.d.ts",
     "./components/Layout/Logout.tsx",
