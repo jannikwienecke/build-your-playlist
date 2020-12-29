@@ -1,0 +1,94 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx ."
+
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc && lint-staged && pretty-quick --staged",
+      "pre-push": "tsc && npm run lint && npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/css": "^11.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@tailwindcss/typography": "^0.3.1",
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/lodash": "4.14.165",
+    "@types/react-query": "1.1.2",
+    "@types/spotify-api": "0.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "@vercel/next": "2.7.6",
+    "autoprefixer": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint-config-react-app": "^6.0.0",
+    "framer-motion": "3.0.0",
+    "immer": "8.0.0",
+    "jest": "^26.6.3",
+    "jest-dom": "^4.0.0",
+    "lodash": "4.17.20",
+    "next": "latest",
+    "postcss": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-error-boundary": "2.3.2",
+    "react-query": "3.3.2",
+    "react-spotify-api": "3.0.0",
+    "react-spotify-web-playback": "0.8.1",
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-typography": "^3.1.0",
+    "twin.macro": "^2.0.1",
+    "typescript": "4.0",
+    "vercel": "21.0.1",
+    "zustand": "3.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/lodash": "4.14.165",
+    "@types/node": "^12.19.11",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^16.9.10",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.6",
+    "jest": "^26.6.3",
+    "jest-dom": "^4.0.0",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
