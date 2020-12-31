@@ -22,10 +22,31 @@
   "include": ["**/*.ts", "**/*.tsx", "me/index.test.js"],
   "files": [
     "twin.d.ts",
-    "./components/Layout/Logout.tsx",
+    "components/Layout/IconNavbar.tsx",
     "./components/Layout/Logo.tsx",
     "./components/Layout/MotionLink.tsx",
     "./components/Layout/WrapperRightNavBar.tsx",
-    "./components/Layout/WrapperLeftNavBar.tsx"
+    "./components/Layout/WrapperLeftNavBar.tsx",
+    "./components/Layout/ButtonIcon.tsx",
+    "./components/Layout/IconImg.tsx",
+    "./components/Layout/SideNavProfile.tsx",
+    "./components/Layout/ButtonWrapperRecommendation.tsx",
+    "./components/Layout/WrapperRecommendationSingleItem.tsx",
+    "./components/Layout/WrapperRecommendationRow.tsx",
+    "./components/Layout/NextRecommendationBtn.tsx",
+    "./components/Layout/HeaderRecommendation.tsx",
+    "./components/Layout/HeadlineTextRecommendation.tsx",
+    "./components/Layout/WrapperRecommendation.tsx",
+    "./components/Layout/TextRecommendationSingleItem.tsx",
+    "./components/Layout/ImageRecommendation.tsx",
+    "./components/Layout/SideNavRecommendation.tsx",
+    "./components/Layout/Recommendation.tsx",
+    "./components/Layout/Player.tsx",
+    "./components/Layout/NavPlayer/WrapperMainPlayer.tsx",
+    "./components/Layout/NavPlayer/WrapperControl.tsx",
+    "./components/Layout/NavPlayer/ControlWrapperOuter.tsx",
+    "./components/Layout/NavPlayer/ControlWrapperInner.tsx",
+    "./components/Layout/NavPlayer/ControlButtonPrimary.tsx",
+    "./components/Layout/NavPlayer/ControlButtonSecondary.tsx"
   ]
 }
