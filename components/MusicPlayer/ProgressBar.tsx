@@ -14,7 +14,7 @@ export const ProgressBar = () => {
 
   const PointerRef = React.useRef<HTMLDivElement>(null)
 
-  const sliderRef = React.useRef<HTMLDivElement>(null)
+  const sliderRef = React.useRef<HTMLButtonElement>(null)
   const dragging = React.useRef(false)
   const startPositionMouse = React.useRef<number>(0)
   const startPositionSlider = React.useRef<number>(0)
