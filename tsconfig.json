@@ -47,6 +47,12 @@
     "./components/Layout/NavPlayer/ControlWrapperOuter.tsx",
     "./components/Layout/NavPlayer/ControlWrapperInner.tsx",
     "./components/Layout/NavPlayer/ControlButtonPrimary.tsx",
-    "./components/Layout/NavPlayer/ControlButtonSecondary.tsx"
+    "./components/Layout/NavPlayer/ControlButtonSecondary.tsx",
+    "./components/Layout/NavPlayer/WrapperProgressBar.tsx",
+    "./components/Layout/NavPlayer/WrapperPlaterSettings.tsx",
+    "./components/Layout/NavPlayer/WrapperPlayerMain.tsx",
+    "./components/Layout/NavPlayer/WrapperTrackInfo.tsx",
+    "./components/MusicPlayer/ProgressBarSiderContainer.tsx",
+    "./components/MusicPlayer/ProgressBarPointer.tsx"
   ]
 }
